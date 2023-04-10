@@ -497,7 +497,7 @@ exports.placeOrder = (req, res) => {
                     username:customer.name,
                     usercontact: customer.contact,
                     items:req.body.items,
-                    foodname:req.body.foodname,
+                    foodname:req.body.foodname, 
                     total:req.body.total,
                     table:req.body.table,
                     ordertype: req.body.ordertype
@@ -528,7 +528,7 @@ exports.placeOrder = (req, res) => {
                     usercontact: customer.contact,
                     items:req.body.items,
                     total:req.body.total,
-                    table:table,
+                    table:req.body.table,
                     ordertype: req.body.ordertype
                         }
                             

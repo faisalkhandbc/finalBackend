@@ -5,6 +5,7 @@ const helmet = require("helmet");
 var bodyParser = require('body-parser')
 const multer = require('multer')
 require('dotenv').config()
+const socket=require('socket.io')
 const PORT = process.env.PORT || 3000
 const session = require('express-session')
 
